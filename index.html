@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="./soundboard.js"></script>
+    <title>SoundBoard</title>
+</head>
+<body>
+    
+    <audio id="sound_1" preload="auto" src="./sound/sound_1.wav"></audio>
+    <audio id="sound_2" preload="auto" src="./sound/sound_2.wav"></audio>
+    <audio id="sound_3" preload="auto" src="./sound/sound_3.wav"></audio>
+    
+    <div id="content">
+        <h1>SoundBoard</h1>
+        <div id="buttonSet">
+            <button onmouseenter="playSound('sound_1')" onclick="playSound('sound_1')">sound_1</button>
+            <button onmouseenter="playSound('sound_2')" onclick="playSound('sound_2')">sound_2</button>
+            <button onmouseenter="playSound('sound_3')" onclick="playSound('sound_3')">sound_3</button>
+        </div>
+    </div>
+    
+</body>
+</html>
